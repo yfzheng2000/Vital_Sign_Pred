@@ -2,6 +2,7 @@
 Paper: Hybrid Neural Network Models to Estimate Vital Signs from Facial Videos
 
 Instruction to infer vital signs with the pre-trained models:
+
 (1) download the test data file: 'Norm_30Frm_ValIdx250.npz'-- One sample (idx=250) from the test subset: X normalized to [-1,1], Y ground truth (not scaled). Note: Users are Not permitted to distribute or publish this data.
 
 (2) download the pre-trained weights of 'Mdl_a': 'Mdl_a.weights.h5', 6.2GB -- cannot uploaded here due to its size. The downloading link for zipped weights file: 
