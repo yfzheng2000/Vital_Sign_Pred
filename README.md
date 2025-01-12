@@ -5,8 +5,8 @@ Instruction to infer vital signs with the pre-trained models:
 
 (1) download the test data file: 'Norm_30Frm_ValIdx250.npz'-- One sample (idx=250) from the test subset: X normalized to [-1,1], Y ground truth (not scaled). Note: Users are Not permitted to distribute or publish this data.
 
-(2) download the pre-trained weights of 'Mdl_a': 'Mdl_a.weights.h5', 6.2GB -- cannot uploaded here due to its size. The downloading link for this weights file: manually copy/paste the following two parts together
-https://drive.google.com
+(2) download the pre-trained weights of 'Mdl_a': 'Mdl_a.weights.h5', 6.2GB -- cannot uploaded here due to its size. The downloading link for this weights file (manually copy/paste the following two parts together & remove spaces):  
+https://drive.google.com  
 /file/d/1rCS6hOCyaWdmr5u9yKQO7ilUBkBWr3go/view?usp=sharing
 
 (3) 'hybrid_face_vital.ipynb': run this code in Jupyter Lab (Notebook) or in Google Colab to Predict Vital Signs from Facial Videos.
