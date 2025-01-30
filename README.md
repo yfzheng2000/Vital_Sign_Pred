@@ -1,5 +1,6 @@
 # Vital_Sign_Pred
 Paper: Hybrid Neural Network Models to Estimate Vital Signs from Facial Videos
+       https://www.mdpi.com/2673-7426/5/1/6
 
 Instruction to infer vital signs with the pre-trained models:
 
