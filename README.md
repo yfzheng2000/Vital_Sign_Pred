@@ -1,6 +1,6 @@
 # Vital_Sign_Pred
 
-**Note: Source code (.ipynb) and data file (.npz) are removed due to copyright & privacy concerns**
+**Note: Source code (.ipynb) and data file (.npz) are removed due to copyright & privacy concerns.**
 
 Paper: Hybrid Neural Network Models to Estimate Vital Signs from Facial Videos
        https://www.mdpi.com/2673-7426/5/1/6
