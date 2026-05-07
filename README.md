@@ -1,6 +1,6 @@
 # Vital_Sign_Pred
 
-**Note: There are two demo videos (demo_video/): from facial videos to vital signs.**
+**Note: Two demo videos uploaded to: demo_video/ (illustrated below)**
 
 Paper: Hybrid Neural Network Models to Estimate Vital Signs from Facial Videos
        https://www.mdpi.com/2673-7426/5/1/6
@@ -17,17 +17,13 @@ https://drive.google.com
 
 (4) Note: put the weights (.h5) file and test data file (.npz) in the same directory as this code. Code and files were Tested and Worked smoothly in both Google Colab with 15GB GPU, and Jupyter Lab with A6000 48GB GPU.
 
-Demo videos:
-BP:
-[https://github.com/yfzheng2000/Vital_Sign_Pred/blob/main/demo_video/Face2Vital-BP_%202025-09-02_Cropped.mp4
-](https://github.com/user-attachments/assets/67a3eaa3-44f0-4bef-a0da-7cff1065f15fH)
-HR, O2
+(5) Demo videos for HR, O2, BP estimation:
+
 [https://github.com/yfzheng2000/Vital_Sign_Pred/blob/main/demo_video/Face2Vital-HR-O2_%202025-09-02_Cropped.mp4
 ](https://github.com/user-attachments/assets/749c8334-a1e5-484b-a357-ce137ec7a397)
 
----
-[https://github.com/yfzheng2000/Vital_Sign_Pred/blob/main/demo_video/Face2Vital-BP_%202025-09-02.mp4
-](https://github.com/user-attachments/assets/67a3eaa3-44f0-4bef-a0da-7cff1065f15fH)
+[https://github.com/yfzheng2000/Vital_Sign_Pred/blob/main/demo_video/Face2Vital-BP_%202025-09-02_Cropped.mp4
+](https://github.com/user-attachments/assets/0bb856af-bbd6-4f14-a542-9c898eb63269)
 
 Nvidia A6000 GPU configuration for our experiments: 
 All models were implemented using Python 3.9 and TensorFlow 2.19 (Keras 3), and executed in JupyterLab (Version 3.6.1) on a DELL Precision workstation with the following specifications: Intel Xeon 5220R 24-Core CPU clocked at 2.2 GHz, 256 GB of RAM, 8 TB hard disk, running Ubuntu 20.04. The workstation was equipped with an NVIDIA Dual RTX A6000 Graphics Board (with NV Link) featuring 48 GB of video memory and 10,752 CUDA cores for each board. 
