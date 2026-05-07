@@ -1,6 +1,6 @@
 # Vital_Sign_Pred
 
-**Note: Source code (.ipynb) and data file (.npz) are removed due to copyright & privacy concerns.**
+**Note: There are two demo videos (demo_video/): from facial videos to vital signs.**
 
 Paper: Hybrid Neural Network Models to Estimate Vital Signs from Facial Videos
        https://www.mdpi.com/2673-7426/5/1/6
@@ -16,6 +16,9 @@ https://drive.google.com
 (3) 'hybrid_face_vital.ipynb': run this code in Jupyter Lab (Notebook) or in Google Colab to Predict Vital Signs from Facial Videos.
 
 (4) Note: put the weights (.h5) file and test data file (.npz) in the same directory as this code. Code and files were Tested and Worked smoothly in both Google Colab with 15GB GPU, and Jupyter Lab with A6000 48GB GPU.
+
+https://github.com/yfzheng2000/Vital_Sign_Pred/blob/main/demo_video/Face2Vital-BP_%202025-09-02.mp4
+https://github.com/yfzheng2000/Vital_Sign_Pred/blob/main/demo_video/Face2Vital-HR-O2_%202025-09-02.mp4
 
 Nvidia A6000 GPU configuration for our experiments: 
 All models were implemented using Python 3.9 and TensorFlow 2.19 (Keras 3), and executed in JupyterLab (Version 3.6.1) on a DELL Precision workstation with the following specifications: Intel Xeon 5220R 24-Core CPU clocked at 2.2 GHz, 256 GB of RAM, 8 TB hard disk, running Ubuntu 20.04. The workstation was equipped with an NVIDIA Dual RTX A6000 Graphics Board (with NV Link) featuring 48 GB of video memory and 10,752 CUDA cores for each board. 
