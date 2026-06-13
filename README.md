@@ -5,6 +5,9 @@
 Paper: Hybrid Neural Network Models to Estimate Vital Signs from Facial Videos
        https://www.mdpi.com/2673-7426/5/1/6
 
+Related Paper: Continuous and contactless blood pressure monitoring using a hybrid neural network model based on facial video analysis
+               https://doi.org/10.1117/12.3097753 (check it out from Subfolder: ./papers/)
+
 Instruction to infer vital signs with the pre-trained models:
 
 (1) download the test data file: 'Norm_30Frm_ValIdx250.npz'-- One sample (idx=250) from the test subset: X normalized to [-1,1], Y ground truth (not scaled). Note: Users are Not permitted to distribute or publish this data.
